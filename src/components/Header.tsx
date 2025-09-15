@@ -52,7 +52,7 @@ const Header: React.FC = () => {
                 <img 
                   src="/WhatsApp Image 2025-09-14 at 05.08.04_51fc0363.jpg" 
                   alt="GLSU Logo" 
-                  className="h-12 w-auto mr-3"
+                  className="h-16 w-auto mr-3"
                 />
               </div>
             </Link>

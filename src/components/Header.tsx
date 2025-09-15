@@ -49,13 +49,11 @@ const Header: React.FC = () => {
             <Link to="/" className="flex items-center">
               <div className="flex items-center">
                 {/* Logo */}
-                <div className="w-12 h-12 bg-gradient-to-br from-red-600 via-yellow-400 to-black rounded-lg flex items-center justify-center mr-3">
-                  <span className="text-white font-bold text-lg">GLS</span>
-                </div>
-                <div className="flex flex-col">
-                  <span className="text-xl font-bold text-gray-900">GLSU</span>
-                  <span className="text-xs text-gray-600 -mt-1">German Language School</span>
-                </div>
+                <img 
+                  src="/WhatsApp Image 2025-09-14 at 05.08.04_51fc0363.jpg" 
+                  alt="GLSU Logo" 
+                  className="h-12 w-auto mr-3"
+                />
               </div>
             </Link>
           </div>
